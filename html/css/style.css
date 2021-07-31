@@ -1,0 +1,97 @@
+/* Cor do body ----------------------------------------------------------------------------- */
+body {background-color: black;}
+/* ------------------------------------------------------------------------------------------*/
+
+
+
+/* Estilo da div nav-bar  -------------------------------------------------------------------*/
+#nav-bar{width: 99%; height: 600px; border: 6px solid #696969; border-radius: 5px;}
+
+.img-netflix{width: 100%; height: 550px;}
+
+.select{width: 150px;  height: 40px; font-size: 20px; font-family: Arial; color: #ffffff; background-color: #000000; border: 2px solid #ffffff; border-radius: 5px; margin-top: 200px; margin-left: 40px;}
+
+.texto-img{font-size: 40px; font-family: Arial; color: #ffffff; margin-top: -500px; margin-left: 40px;}
+.texto2-img{font-size: 15px; font-family: Arial; color: #ffffff; margin-left: 40px;}
+.texto3-img{font-size: 15px; font-family: Arial; color: #ffffff; margin-left: 40px; margin-top: 60px;}
+
+.btn-btn{width: 120px; height: 40px; font-size: 20px; font-family: Arial; color: #ffffff; background-color: #ff0000; margin-left: 10px; border: #ff0000;}
+.btn-btn:hover{background-color: #ff0000; border: 5px solid #DC143C;}
+
+.camp-email{width: 300px; height: 35px; font-size: 20px; font-family: Arial; margin-left: 40px;}
+/* ------------------------------------------------------------------------------------------*/
+
+
+
+/* Estilo da div post -----------------------------------------------------------------------*/
+#post{width: 100%; height: 700px; margin-top: 200px;}
+
+/* Estilizando a div container-carrocel */
+.container-carrocel {position: relative; width: 320px; margin: 100px auto 0 auto; perspective: 1000px;}
+  
+.carrocel{position: absolute; width: 100%; height: 100%; transform-style: preserve-3d; animation: rotate360 60s infinite forwards linear;}
+  
+.carousel__face{position: absolute; width: 300px; height: 187px; top: 20px; left: 10px; right: 10px; background-size: cover; box-shadow:inset 0 0 0 2000px rgba(14, 13, 13, 0.5); display: flex;}
+
+.carousel__texto{font-size: 40px; font-family: impact; color: #ffffff; text-align: center;}
+  
+span{margin: auto; font-size: 2rem;}
+
+.img-tv{margin-left: 100px;}
+  
+/* Links do carrocel */
+.carousel__face:nth-child(1) {
+    background-image: url("https://th.bing.com/th/id/R.ffec2978fee24b78e3b5e6d3bad972ef?rik=R%2faMuJTf4pHQ4w&riu=http%3a%2f%2fbr.web.img2.acsta.net%2fvideothumbnails%2f14%2f08%2f15%2f15%2f33%2f279171.jpg&ehk=K8Ta1aYNxgxnrkinvLwwmQ7AGpEOSLMiVpt%2fyOt3XTI%3d&risl=&pid=ImgRaw");
+    transform: rotateY(  0deg) translateZ(430px); }
+.carousel__face:nth-child(2) { 
+   background-image: url("");
+      transform: rotateY( 40deg) translateZ(430px); } 
+.carousel__face:nth-child(3) {
+    background-image: url("https://th.bing.com/th/id/OIP.meVEhQqHHhxcm_rCF1Iz8gHaEo?pid=ImgDet&rs=1");
+    transform: rotateY( 80deg) translateZ(430px); }
+.carousel__face:nth-child(4) {
+    background-image: url("");
+    transform: rotateY(120deg) translateZ(430px); }
+.carousel__face:nth-child(5) { 
+    background-image: url("https://i.pinimg.com/originals/30/dd/14/30dd142817ccd18c3665146f3abaf379.jpg");
+   transform: rotateY(160deg) translateZ(430px); }
+.carousel__face:nth-child(6) { 
+    background-image: url("");
+   transform: rotateY(200deg) translateZ(430px); }
+.carousel__face:nth-child(7) { 
+    background-image: url("https://th.bing.com/th/id/OIP.fetVS6sGuS9yVw6g3wMw5gHaD4?pid=ImgDet&rs=1");
+   transform: rotateY(240deg) translateZ(430px); }
+.carousel__face:nth-child(8) {
+    background-image: url("");
+    transform: rotateY(280deg) translateZ(430px); }
+.carousel__face:nth-child(9) {
+    background-image: url("https://kanto.legiaodosherois.com.br/w750-h393-gnw-cfill-q80/wp-content/uploads/2017/11/legiao_svTfRwYOrV6dxWX_Zl8DectSAyUGCNzLpujQoJEaih.png.jpeg");
+    transform: rotateY(320deg) translateZ(430px); }
+ 
+@keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+/* ----------------------------------------------------------------------------------------------- */
+
+
+
+/* estilo da div footer -------------------------------------------------------------------------- */
+#footer{width: 99%; height: 400px; margin-top: 200px;  border: 6px solid #696969; border-radius: 5px;}
+
+.titulo-footer{font-size: 15px; font-family: Arial; color: #696969; margin-left: 280px; margin-top: 40px;}
+
+.footer1{width: 300px; height: 300px; margin-left: 280px; margin-top: 20px; float: left; }
+
+.footer2{width: 300px; height: 300px; margin-left: 20px; margin-top: 20px; float: left; }
+
+.footer3{width: 300px; height: 300px; margin-left: 20px; margin-top: 20px; float: left; }
+
+.links-footer{font-size: 12px; font-family: Arial; text-decoration: none; color: #696969;}
+
+.texto-rodape-footer{font-size: 15px; font-family: Arial; color: #696969; margin-left: 280px; margin-top: -100px; float: left;}
+/* ------------------------------------------------------------------------------------------------ */
