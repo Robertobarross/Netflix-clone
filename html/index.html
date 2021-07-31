@@ -5,10 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix-Clone</title>
+
+    <!--Link para acessar pasta css-------------------------------------------------------------------->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--link para acessar pasta js--------------------------------------------------------------------->
+    <script src="js/script.js"></script>   
 </head>
 <body>
 
-    <h1>Netflix</h1>
+
+    <!--Inicio da div nav-bar-------------------------------------------------------------------------->
+    <div id="nav-bar">
+        <!--Imagem da div-->
+        <img src="img/Netflix.jpg" class="img-netflix" alt="Imagem plano de fundo Netflix">
+
+        <!--textos da div-->
+        <h1 class="texto-img">Filmes, séries e muito mais...</h1>
+        <h2 class="texto2-img">Assista onte quiser, sem limites...</h2>
+
+        <!--Select dos idiomas da div-->
+        <select name="idioma" id="idioma" class="select">
+            <option value="portu">Português</option>
+            <option value="ingl">Inglish</option>
+            <option value="espan">Espanhol</option>
+        </select>
+
+        <!--Botão da div-->
+        <a href="https://www.netflix.com/br/login"><button class="btn-btn">Entrar</button></a>
+
+        <!--A baixo seguem o texto, campo de email e botão de direcionamento para o cadastro-->
+        <br><h3 class="texto3-img">Criar assinatura</h3>
+        <input type="text" id="Busca" class="camp-email" placeholder="E-mail"/>
+        <a href="https://www.netflix.com/signup/registration?locale=pt-BR"><button class="btn-btn">Vamos lá</button></a>
+    </div>
+    <!--Fim da div nav-bar-------------------------------------------------------------------------->
+
+
+
+    <!--Inicio da div post-------------------------------------------------------------------------->
+    <div id="post">
+        <h1 class="carousel__texto">Baixe séries para assistir offline</h1>
+
+        <!--Inicio da div container-carrocel-->
+        <div class="container-carrocel">
+            <div class="carrocel">
+              <div class="carousel__face"><span></span></div>
+              <div class="carousel__texto"><span></span>Filmes</div>
+              <div class="carousel__face"><span></span></div>
+              <div class="carousel__texto"><span></span>Series</div>
+              <div class="carousel__face"><span></span></div>
+              <div class="carousel__texto"><span></span>Diversão</div>
+              <div class="carousel__face"><span></span></div>
+              <div class="carousel__texto"><span></span>Comédia</div>
+              <div class="carousel__texto"><span></span>Humor</div>
+              <div class="carousel__face"><span></span></div>
+            </div>
+          </div>
+          <!--Fim da div container-carrocel-->
+
+          <br><img alt="Imagem tv" class="img-tv" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+    </div>
+    <!--Fim da div post----------------------------------------------------------------------------->
+
+
+
+    <!--Inicio da div footer------------------------------------------------------------------------>
+    <div id="footer">
+        <h1 class="titulo-footer">Dúvidas? Ligue 0800-761-4631</h1>
+
+        <!--Links do footer-->
+        <div class="footer1">
+            <a href="https://devices.netflix.com/en/" class="links-footer">Formas de assistir</a>
+            <br><a href="https://help.netflix.com/pt/" class="links-footer">Centro de ajuda</a>
+            <br><a href="https://jobs.netflix.com/" class="links-footer">Carreiras</a>
+        </div>
+
+        <div class="footer2">
+            <a href="https://help.netflix.com/legal/corpinfo" class="links-footer">Informações corporativas</a>
+            <br><a href="https://help.netflix.com/legal/termsofuse" class="links-footer">Termos de uso</a>
+            <br><a href="https://help.netflix.com/legal/privacy" class="links-footer">Privacidade</a>
+        </div>
+
+        <div class="footer3">
+            <a href="https://www.netflix.com/br/browse/genre/839338" class="links-footer">Só na Netflix</a>
+            <br><a href="https://media.netflix.com/pt_br/" class="links-footer">Imprensa</a>
+            <br><a href="https://help.netflix.com/legal/notices" class="links-footer">Avisos legais</a>
+        </div>    
+    </div>
+        </br><h2 class="texto-rodape-footer">Netflix Brasil</h2>
+    <!--Fim da div footer--------------------------------------------------------------------------->
+
     
 </body>
 </html>
